@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dog Adoption Form</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <form>
+        <br>
 
-</body>
+        <!-- Name field -->
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Your full name"><br><br>
 
-</html>
+        <!-- Phone field -->
+        <label for="phone">Phone:</label>
+        <input id="phone" type="text" placeholder="Phone number"><br><br>
+
+        <!-- Address field -->
+        <label for="address">Address:</label>
+        <input id="address" type="text" placeholder="Address"><br><br>
+
+        <!-- Checkbox -->
+        <label for="lived-with-dog">Have you ever lived with a dog before?</label>
+        <input id="lived-with-dog" type="checkbox"><br><br>
+
+        <!-- Dropdown for breed selection -->
+        <label for="preferred-breeds">Please select your preferred breeds:</label>
+        <select id="preferred-breeds" multiple>
+            <option value="labrador">Labrador</option>
+            <option value="golden-retriever">Golden Retriever</option>
+            <option value="german-shepherd">German Shepherd</option>
+            <option value="bulldog">Bulldog</option>
+            <option value="poodle">Poodle</option>
+        </select><br><br>
+		<input type="submit" value="submit">
+
+    </form>
+
+    <script type="text/javascript" src="./script.js"></s
